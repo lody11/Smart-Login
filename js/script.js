@@ -43,7 +43,7 @@ function signUp() {
         localStorage.setItem('users', JSON.stringify(signUpArray))
         document.getElementById('exist').innerHTML = '<span class="text-success m-3">Success</span>'
         alert('Success');
-        window.location.href = 'main.html';
+        window.location.href = 'index.html';
     }
 
 
